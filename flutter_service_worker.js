@@ -29,9 +29,8 @@ const RESOURCES = {"assets/fonts/MaterialIcons-Regular.otf": "71a37f10a31bf50587
 "main.dart.js": "e710d71371877a65ea0ea925c0a7398c",
 "favicon.ico": "32cc726f07dc18fd561d650ee5320293",
 "flutter.js": "6fef97aeca90b426343ba6c5c9dc5d4a",
-"game.html": "03238c37f01dba7c9b883139130a26a9",
-"index.html": "760daacd26c0eeaa0c7bf90655dfd8ef",
-"/": "760daacd26c0eeaa0c7bf90655dfd8ef"};
+"index.html": "0fca2d80015cbddadfbd36b75ce31e62",
+"/": "0fca2d80015cbddadfbd36b75ce31e62"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
