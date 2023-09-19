@@ -20,18 +20,18 @@ const RESOURCES = {
   "canvaskit/chromium/canvaskit.wasm": "393ec8fb05d94036734f8104fa550a67",
   "canvaskit/skwasm.worker.js": "51253d3321b11ddb8d73fa8aa87d3b15",
   "manifest.json": "7c2404459c4b2c5fd265e19cd1846ef3",
-  "version.json": "693037f25206de42999f015289dc0963",
+  "version.json": "09e873d5f271f3576efcc1954104e381",
   "privacy-policy.html": "6e3c94dc56a778d3c39b8ea04fb33c25",
   "icons/apple-touch-icon.png": "9c008c0d056865b9e6f829b8ef557f6d",
   "icons/icon-192-maskable.png": "761132ed7a4f26bf55b7d719e8110e2b",
   "icons/icon-192.png": "ded194ed3ec9af90c02f79aa88a834a2",
   "icons/icon-512-maskable.png": "8e325895c37486707234e54997e3c9cf",
   "icons/icon-512.png": "e62908e9740cc880dfccc8d6910c2d8f",
-  "main.dart.js": "e767f15da09c4156ac9e079ee81bd288",
+  "main.dart.js": "16b8c5a54eee0b47d317577fa49fdfc2",
   "favicon.ico": "32cc726f07dc18fd561d650ee5320293",
   "flutter.js": "6fef97aeca90b426343ba6c5c9dc5d4a",
-  "game.html": "c1725ed1dd6e62df8e453abbf0f89295",
-  "/": "c1725ed1dd6e62df8e453abbf0f89295"
+  "game.html": "f8f41bac166f3b31e422afd728fdfec1",
+  "/": "f8f41bac166f3b31e422afd728fdfec1"
 };
 // The application shell files that are downloaded before a service worker can
 // start.
@@ -118,7 +118,7 @@ self.addEventListener("fetch", (event) => {
   }
   var origin = self.location.origin;
   var key = event.request.url.substring(origin.length + 1);
-  // Redirect URLs to the index.html
+  // Redirect URLs to the game.html
   if (key.indexOf('?v=') != -1) {
     key = key.split('?v=')[0];
   }
@@ -130,7 +130,7 @@ self.addEventListener("fetch", (event) => {
   if (!RESOURCES[key]) {
     return;
   }
-  // If the URL is the index.html, perform an online-first request.
+  // If the URL is the game.html, perform an online-first request.
   if (key == '/') {
     return onlineFirst(event);
   }
