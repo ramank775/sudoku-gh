@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sudoku</title>
+    <title>Sudoku</title>
   <meta name="description"
       content="Experience Sudoku like never before! Sharpen your skills, track your progress, and master various game modes. Challenge yourself daily, beat your records, and become a Sudoku champion. Start playing now!">
   <style>
@@ -19,8 +19,11 @@
 
     /* Header styles */
 
-    /* Container for content and image */
-    .container {
+    /* content-section for content and image */
+    .container{
+      padding: 80px 80px 0 80px;
+    }
+    .content-section {
       display: flex;
       justify-content: space-between;
     }
@@ -60,6 +63,11 @@
       width: 150%;
     }
 
+    .cta {
+      display: flex;
+      flex-direction: row;
+    }
+
     /* Right image div */
     .image-right {
       display: flex;
@@ -75,7 +83,7 @@
 
     @media (max-width:1440px) {
 
-      .container {
+      .content-section {
         align-items: center;
         padding-left: 50px;
       }
@@ -101,6 +109,7 @@
       }
 
       .cta-button {
+
         margin-left: -10px;
       }
 
@@ -121,7 +130,7 @@
         margin-right: 0;
       }
 
-      .content-left>p {
+      .cta {
         display: flex;
         justify-content: left;
         align-items: center;
@@ -145,11 +154,14 @@
     }
 
     @media (max-width: 768px) {
-      .container {
+      .container{
+        padding:0px;
+      }
+      .content-section {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        padding: 20px;
+        padding: 0;
       }
 
       .content-left,
@@ -171,7 +183,6 @@
       .heading-logo {
         width: 120%;
       }
-
       .image-right {
         margin-top: -10px;
       }
@@ -214,7 +225,6 @@
 
       .image-right>img {
         width: 350px;
-        
       }
     }
   </style>
@@ -222,7 +232,6 @@
 
 <body>
   <div class="container">
-
     <div class="content-left">
       <p class="heaing-content">Your Ultimate Destination for</p>
       <p><img class="heading-logo" src="./images/logo.svg" alt=""></p>
@@ -242,11 +251,6 @@
         </a>
       </p>
     </div>
-
-    <div class="image-right">
-      <img src="./images/background.svg" alt="Image">
-    </div>
-  </div>
   </div>
 </body>
 
