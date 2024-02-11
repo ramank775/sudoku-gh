@@ -1,0 +1,14 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.one9x.sudoku",
+            "sha256_cert_fingerprints": [
+                "2F:FE:5E:7B:3F:56:34:9A:05:98:C9:6B:0E:6D:CC:B0:2C:4F:4A:A0:0E:EF:CD:E0:A6:65:3E:90:C6:92:68:89"
+            ]
+        }
+    }
+]
