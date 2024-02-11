@@ -27020,7 +27020,7 @@ if(k==null||j==null)return f
 o=m-1
 i=B.e.aq(o,9)
 h=B.e.aQ(o,9)
-q[i][h]=new A.ic(i,h,j===0,A.ax(p),k)}g=J.bo(e)>=83?B.b.A3(B.HV,new A.afo(e)):B.cA
+q[i][h]=new A.ic(i,h,j===1,A.ax(p),k)}g=J.bo(e)>=83?B.b.A3(B.HV,new A.afo(e)):B.cA
 if(J.bo(e)===164)for(m=83;m<164;++m){if(J.bo(J.b4(e,m))===0)continue
 p=J.atJ(J.b4(e,m),",")
 l=new A.a_(p,new A.afp(),A.a3(p).h("a_<1,p>")).ih(0)
@@ -88697,7 +88697,7 @@ p+=o.e
 n.a=p
 p+=":"
 n.a=p
-n.a=p+(o.c?0:1)}p=n.a+=";"
+n.a=p+(o.c?1:0)}p=n.a+=";"
 n.a=p+this.c.b
 for(r=0;r<9;++r)for(q=0;q<9;++q){p=n.a+=";"
 n.a=p+s[r][q].d.bt(0,",")}s=n.a
