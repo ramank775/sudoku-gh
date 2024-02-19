@@ -49,10 +49,12 @@
     }
 
     .logo{
+        height: 30px;
         align-items: center;
     }
     .logo > a > img{
-        width: 160px;
+        width: 100px;
+
     }
     .slider_section{
         justify-content: center;
