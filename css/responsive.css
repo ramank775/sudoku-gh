@@ -1,0 +1,143 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+ @media only screen and (min-width: 768px) and (max-width: 991px) {
+     .main-menu{
+        display:none;
+    }
+}
+/*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
+ @media only screen and (min-width: 599px) and (max-width: 767px) {
+    .slider_section{
+        padding: 0;
+        justify-content: center;
+    }
+    .body-content{
+        display: inline-block;
+    }
+    .text-bg{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .text-bg h1{
+        font-size: 20px;
+    }
+    .text-bg h1 > img{
+        width:66%;
+        margin-bottom: -15px;
+    }
+    .text-bg a{
+        font-size: 14px;
+        padding: 10px 50px;
+    }
+    .container{
+        width: auto;
+        justify-content: center;
+    }
+    .hero-image{
+        padding-top: 50px ;
+        width: 100%;
+    }
+}
+/*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
+ @media only screen and (min-width: 280px) and (max-width: 599px) {
+   .main-layout{
+    width: 90%;
+   }
+    .main-menu{
+        display: none;
+    }
+
+    .logo{
+        align-items: center;
+    }
+    .logo > a > img{
+        width: 160px;
+    }
+    .slider_section{
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .body-content{
+        display: inline-block;
+    }
+    .text-bg{
+        text-align: center;
+        justify-content: center;
+    }
+    .text-bg h1{
+        font-size: 16px;
+        line-height: 50px;
+    }
+    .text-bg h1 > img{
+        width: 62%;
+        margin-bottom: -15px;
+    }
+    .text-bg a{
+        display: inline-block;
+        width: 50%;
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .download-btn{
+        margin-top: 20px;
+    }
+    .container{
+        width: auto;
+        justify-content: center;
+    }
+    .hero-image{
+        padding-top: 40px ;
+        width: 100%;
+    }
+}
+ @media (min-width: 1200px) and (max-width: 1500px) {
+    .main-menu{
+        display: none;
+    }
+    .text-bg h1 {font-size: 22px; line-height: 40px;}
+    .text-bg > a{
+        font-size: 12px;
+        padding: 10px 50px;
+    }
+}
+@media (min-width: 1500px){
+    .main-menu{
+        display: none;
+    }
+    .text-bg h1 {font-size: 29px; line-height: 100px;}
+    .text-bg > a{
+        font-size: 20px;
+        padding: 10px 60px;
+    }
+}
+ @media (min-width: 992px) and (max-width: 1199px) {
+    .text-bg h1 {
+         font-size: 18px;
+         line-height: 54px;
+         padding-bottom: 10px;
+    }
+    .text-bg > a{
+        font-size: 10px;
+        padding: 10px 40px;
+    }
+}
+ @media (min-width: 768px) and (max-width: 991px) {
+     .main-menu{
+         display: none;
+     }
+     .text-bg{
+        width:100%;
+     }
+     .text-bg h1 {
+    padding-top: 0px;
+    font-size: 14px;
+    line-height: 40px;
+    margin-bottom: 5px;
+    }
+     .text-bg a {
+        margin-right: 2px;
+        font-size: 10px;
+        padding: 10px 30px;
+    }
+}
