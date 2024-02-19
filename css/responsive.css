@@ -47,12 +47,14 @@
     .main-menu{
         display: none;
     }
+
     .logo{
         height: 30px;
         align-items: center;
     }
     .logo > a > img{
         width: 100px;
+
     }
     .slider_section{
         justify-content: center;
