@@ -2,269 +2,163 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Responsive Website</title>
-  <style>
-    /* Reset some default styles */
-    body,
-    html {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-      background-color: #fff;
-    }
-
-    /* Header styles */
-
-    /* content-section for content and image */
-    .container{
-      padding: 80px 80px 0 80px;
-    }
-    .content-section {
-      display: flex;
-      justify-content: space-between;
-    }
-
-    /* Left content divs */
-    .content-left {
-      align-self: center;
-      background-color: #fff;
-      margin-right: 20px;
-    }
-
-    .content-left>p {
-      display: flex;
-      align-items: center;
-    }
-
-    .heaing-content {
-      font-size: 50px;
-    }
-
-    .heading-logo {
-      height: auto;
-      width: 150%;
-    }
-
-    .cta {
-      display: flex;
-      flex-direction: row;
-    }
-
-    /* Right image div */
-    .image-right {
-      display: flex;
-      align-items: center;
-      margin-right: 20px;
-    }
-
-    .image-right>img {
-      width: 150%;
-    }
-
-    /* Media query for smaller screens */
-
-    @media (max-width:1440px) {
-
-      .content-section {
-        align-items: center;
-        padding-left: 50px;
-      }
-
-      .content-left,
-      .image-right {
-        flex-basis: 100%;
-        margin-right: 0;
-      }
-
-      .content-left>p {
-        display: flex;
-        justify-content: left;
-        align-items: center;
-      }
-
-      .heaing-content {
-        font-size: 36px;
-      }
-
-      .heading-logo {
-        width: 50%;
-      }
-
-      .cta-btn {
-        margin-left: -10px;
-      }
-
-      .image-right>img {
-        width: 80%;
-      }
-    }
-
-    @media (max-width: 1240px) {
-      .container{
-        padding:0;
-      }
-      .content-section {
-        align-items: center;
-      }
-
-      .content-left,
-      .image-right {
-        flex-basis: 100%;
-        margin-right: 0;
-      }
-
-      .cta {
-        display: flex;
-        justify-content: left;
-        align-items: left;
-        flex-direction: column;
-      }
-
-      .download-btn {
-        margin-top: -30px;
-      }
-
-      .heaing-content {
-        font-size: 36px;
-      }
-
-      .heading-logo {
-        width: 90%;
-      }
-
-      .cta-btn {
-        margin-left: -10px;
-      }
-
-      .image-right>img {
-        width: 100%;
-      }
-    }
-
-    @media (max-width: 768px) {
-      .container{
-        padding:0px;
-      }
-      .content-section {
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        padding: 0;
-      }
-
-      .content-left,
-      .image-right {
-        flex-basis: 100%;
-        margin-right: 0;
-      }
-
-      .cta {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .heaing-content {
-        font-size: 26px;
-      }
-
-      .heading-logo {
-        width: 120%;
-      }
-
-      .heading-logo {
-        width: 100%;
-      }
-
-      .cta {
-        margin-top: -10px;
-        flex-direction: column;
-      }
-
-      .download-btn {
-        margin-top: -30px;
-      }
-
-      .image-right {
-        margin-top: -10px;
-      }
-
-      .image-right>img {
-        width: 450px;
-
-      }
-    }
-
-    @media (max-width: 414px) {
-      .container{
-        padding-top:20px;
-      }
-      .content-section {
-        align-items: center;
-        justify-content: center;
-        padding: 0px;
-      }
-
-      .content-left,
-      .image-right {
-        flex-basis: 100%;
-        margin-right: 0;
-      }
-
-      .content-left>p {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .heaing-content {
-        font-size: 22px;
-      }
-
-      .heading-logo {
-        width: 100%;
-      }
-
-      .cta {
-        margin-top: -10px;
-        flex-direction: column;
-      }
-
-      .download-btn {
-        margin-top: -30px;
-      }
-
-      .image-right {
-        margin-top: -10px;
-      }
-
-      .image-right>img {
-        width: 100%;
-
-      }
-    }
-  </style>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>Sudoku</title>
+    <link rel="icon" href="icon/title-icon.png">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- fevicon -->
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <!-- Tweaks for older IEs-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+        media="screen">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 </head>
+<!-- body -->
 
-<body>
-  <div class="container">
-    <div class="hero-section content-section">
-      <div class="content-left">
-        <p class="heaing-content">Your Ultimate Destination for</p>
-        <p><img class="heading-logo" src="./images/logo.svg" alt=""></p>
-        <div class="cta">
-          <p><a href="/game"><img class="cta-btn play-btn" src="./images/playButton.svg" alt=""></a></p>
-          <p><a href="https://play.google.com/store/apps/details?id=com.one9x.sudoku" target="_blank">
-              <img class="cta-btn download-btn" src="./images/downloadButton.svg" alt=""></a></p>
-        </div>
-      </div>
-      <div class="image-right">
-        <img src="./images/background.svg" alt="Image">
-      </div>
+<body class="main-layout">
+    <!-- loader  -->
+    <div class="loader_bg">
+        <div class="loader"><img src="images/loading.gif" alt="#" /></div>
     </div>
-  </div>
+    <!-- end loader -->
+    <div class="header-top">
+        <div class="header">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="full">
+                        <div class="center-desk">
+                            <div class="logo">
+                                <a href="index.html"><img src="images/logo.svg" alt="#" /></a>
+                                <ul class="social-icons">
+                                    <li>Follow us: </li>
+                                    <li><a href="https://www.instagram.com/sudoku.one9x" target="_blank"><img
+                                                src="icon/Instagram_icon.png.webp" alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end header inner -->
+    <div class="body-container">
+    <div class="slider_section" style=" display: flex; align-items: center;">
+        <div class="banner_main">
+            <div class="container-fluid">
+                <div class="row body-content">
+                    <div class="container">
+                        <div class="text-bg">
+                            <h1>Your Ultimate Destination for<br> <img class="hero-text" src="images/logo.svg" alt="">
+                            </h1>
+                            <a href="https://sudoku.one9x.org/game" target="_blank" class="play-btn">Play Now</a>
+                            <a href="https://play.google.com/store/apps/details?id=com.one9x.sudoku" target="_blank"
+                                class="download-btn">Download</a>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <img class="hero-image" src="images/Character.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="sudoku-details">
+        <div class="sudoku-experience">
+        <div class="details-heading">
+            <h1>The <span class="content-logo">Sud</span>oku Experience</h1>
+        </div>
+        <div class="details-subcontent">
+            <div class="subcontent-1">
+                <h3 class="subcontent-heading">🧠 Engaging Puzzles</h3>
+                <p>Immerse yourself in a world of thought-provoking puzzles that cater to all skill levels. From
+                    beginner-friendly grids to mind-bending challenges, we’ve curated a diverse collection to keep you
+                    entertained.</p>
+            </div>
+            <div class="subcontent-2">
+                <h3 class="subcontent-heading">🌐 Anytime, Anywhere</h3>
+                <p>Take your Sudoku journey with you wherever you go. Our app is designed for seamless compatibility
+                    across devices, ensuring you can enjoy a satisfying Sudoku experience whether you’re on your phone
+                    during a commute or relaxing at home on your tablet.</p>
+            </div>
+            <div class="subcontent-3">
+                <h3 class="subcontent-heading">🚀 Constant Innovation</h3>
+                <p>We believe in the continuous improvement of your Sudoku experience. Our team is dedicated to
+                    introducing innovative features, updates, and improvements regularly, so you can always look forward
+                    to fresh challenges and exciting enhancements.
+                </p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="tips-section">
+        <div class="tips-heading">
+            <h1>How to Play <span class="content-logo">Sud</span>oku</h1>
+        </div>
+        <div class="tips-description">
+            <p>The goal of Sudoku is to fill a 9×9 grid with digits so each column, row, and 3×3 section has numbers 1-9. Initially, some squares are filled. <br>Use logic to complete the grid, avoiding:</p>
+        </div>
+        <div class="tips">
+            <ul class="tips-content">
+                <li>Duplicate numbers in any row</li>
+                <li>Duplicate numbers in any column</li>
+                <li>Duplicate numbers in any 3×3 grid</li>
+            </ul>
+        </div>
+    </div>
+    <br>
+    <div class="tips-section">
+        <div class="tips-heading">
+            <h1><span class="content-logo">Sud</span>oku Tips</h1>
+        </div>
+        <div class="tips-description">
+            <p>Mastering this puzzle can seem daunting for beginners, but fear not—we've got tips to boost your skills.</p>
+        </div>
+        <div class="tips">
+            <ul class="tips-content">
+                <li><b>Tip 1:</b> Identify rows, columns, or 3×3 sections with 5 or more numbers. Fill empty cells by trying unused numbers, often revealing the only possible position.</li>
+                <li><b>Tip 2:</b> Visually divide the grid into 3 columns and 3 rows. Spot columns or grids with 2 of the same number; logically, the 3rd copy must be in the remaining 9-cell section. Explore each position to locate the missing number. Happy Sudoku solving!</li>
+            </ul>
+        </div>
+        <br>
+        <div class="tips-description">
+            <p>Now that you know a little more about Sudoku, play and enjoy this free game.</p>
+        </div>
+    </div>
+    </div>
+</div>
+
+    <!-- Javascript files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <!-- sidebar -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+
 </body>
 
 </html>
