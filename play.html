@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>Sudoku</title>
+    <link rel="icon" href="icon/title-icon.png">
+    <meta name="keywords" content="sudoku">
+    <meta name="description"
+        content="Experience Sudoku like never before! Sharpen your skills, track your progress, and master various game modes. Challenge yourself daily, beat your records, and become a Sudoku champion. Start playing now!">
+
+    <meta name="author" content="">
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://sudoku.one9x.org">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Sudoku">
+    <meta property="og:description" content="">
+
+    <meta property="og:image" content="https://sudoku.one9x.org/images/og.jpg">
+
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="sudoku.one9x.org">
+    <meta property="twitter:url" content="https://sudoku.one9x.org">
+    <meta name="twitter:title" content="Sudoku">
+    <meta name="twitter:description" content="">
+
+    <meta name="twitter:image" content="https://sudoku.one9x.org/images/og.jpg">
+    <style>
+    .loading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+
+    .loader {
+      border: 16px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 16px solid blue;
+      border-right: 16px solid green;
+      border-bottom: 16px solid red;
+      border-left: 16px solid pink;
+      width: 120px;
+      height: 120px;
+      -webkit-animation: spin 2s linear infinite;
+      animation: spin 2s linear infinite;
+    }
+
+    @-webkit-keyframes spin {
+      0% {
+        -webkit-transform: rotate(0deg);
+      }
+
+      100% {
+        -webkit-transform: rotate(360deg);
+      }
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+
+</head>
+<body>
+  <div class="loading">
+    <div class="loader"></div>
+  </div>
+  <script>
+    const destination = document.location.origin + "/game/play";
+    window.location.href = destination + (window.location.search || '') + (window.location.hash || '');
+  </script>
+</body>
+</html>
