@@ -1,5 +1,15 @@
 {
-  "comingSoon": true,
-  "items": [],
+  "comingSoon": false,
+  "items": [
+    {
+      "id": "202507",
+      "title": "Daily Puzzles - July 2025",
+      "description": "Sudoku Daily Puzzles - A Monthly Series for Puzzle Lovers. Sudoku Daily Puzzles is a monthly series of logic puzzle books designed for Sudoku fans who love a daily mental challenge.",
+      "imageUrl": "https://sudoku.one9x.org/shop/images/202507_cover_thumbnail_100.png",
+      "purchaseUrl": "https://www.amazon.com/dp/B0FGCNNXHS",
+      "price": 0.00,
+      "currency": "USD"
+    }
+  ],
   "nextPageToken": null
 }
