@@ -2,6 +2,24 @@
   "comingSoon": false,
   "items": [
     {
+      "id": "202508",
+      "title": "Daily Puzzles - August 2025",
+      "description": "Sudoku Daily Puzzles - A Monthly Series for Puzzle Lovers. Sudoku Daily Puzzles is a monthly series of logic puzzle books designed for Sudoku fans who love a daily mental challenge.",
+      "imageUrl": "https://sudoku.one9x.org/shop/images/202508_cover_thumbnail_100.png",
+      "purchaseUrl": "https://mybook.to/one9x-sudoku-aug",
+      "price": 0.00,
+      "currency": "USD"
+    },
+    {
+      "id": "202508",
+      "title": "Daily Puzzles - August 2025 - India Edition",
+      "description": "Sudoku Daily Puzzles - A Monthly Series for Puzzle Lovers. Sudoku Daily Puzzles is a monthly series of logic puzzle books designed for Sudoku fans who love a daily mental challenge.",
+      "imageUrl": "https://sudoku.one9x.org/shop/images/202508_cover_thumbnail_100.png",
+      "purchaseUrl": "https://store.pothi.com/book/amisha-yadav-sudoku-daily-puzzles-august-2025/",
+      "price": 0.00,
+      "currency": "INR"
+    },
+    {
       "id": "202507",
       "title": "Daily Puzzles - July 2025",
       "description": "Sudoku Daily Puzzles - A Monthly Series for Puzzle Lovers. Sudoku Daily Puzzles is a monthly series of logic puzzle books designed for Sudoku fans who love a daily mental challenge.",
@@ -9,6 +27,15 @@
       "purchaseUrl": "https://www.amazon.com/dp/B0FGCNNXHS",
       "price": 0.00,
       "currency": "USD"
+    },
+    {
+      "id": "202507",
+      "title": "Daily Puzzles - July 2025 - India Edition",
+      "description": "Sudoku Daily Puzzles - A Monthly Series for Puzzle Lovers. Sudoku Daily Puzzles is a monthly series of logic puzzle books designed for Sudoku fans who love a daily mental challenge.",
+      "imageUrl": "https://sudoku.one9x.org/shop/images/202507_cover_thumbnail_100.png",
+      "purchaseUrl": "https://store.pothi.com/book/amisha-yadav-sudoku-daily-puzzles-july-2025/",
+      "price": 0.00,
+      "currency": "INR"
     }
   ],
   "nextPageToken": null
