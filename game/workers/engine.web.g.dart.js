@@ -5184,6 +5184,7 @@ df(a){var s=0,r=A.W(t.a),q,p,o
 var $async$b8=A.X(function(b,c){if(b===1)return A.T(c,r)
 while(true)switch(s){case 0:o=A.hj(B.f)
 o.bo(a)
+o.x=!0
 o.aT()
 p=o.aQ()
 q=p==null?B.e:p
@@ -5223,12 +5224,13 @@ break}if(!p.cX(a)){q=new A.aS(!1,"Puzzle has duplicates or invalid numbers.",nul
 s=1
 break}l=A.hj(B.f)
 l.bo(a)
-l.aT()
 if(l.bC(!0)===0){q=new A.aS(!1,"Puzzle has no valid solution.",null,n)
 s=1
 break}if(l.bC(!0)>1){q=new A.aS(!1,"Puzzle has multiple solutions. Valid Sudoku must have unique solution.",null,n)
 s=1
-break}k=l.aQ()
+break}l.x=!0
+l.aT()
+k=l.aQ()
 q=new A.aS(!0,null,k==null?B.e:k,n)
 s=1
 break
