@@ -2,6 +2,24 @@
   "comingSoon": false,
   "items": [
     {
+      "id": "202510",
+      "title": "Daily Puzzles - October 2025",
+      "description": "Sudoku Daily Puzzles - A Monthly Series for Puzzle Lovers. Sudoku Daily Puzzles is a monthly series of logic puzzle books designed for Sudoku fans who love a daily mental challenge.",
+      "imageUrl": "https://sudoku.one9x.org/shop/images/202510_cover_thumbnail_100.jpg",
+      "purchaseUrl": "https://mybook.to/one9x-sudoku-oct",
+      "price": 0.00,
+      "currency": "USD"
+    },
+    {
+      "id": "202509",
+      "title": "Daily Puzzles - October 2025 - India Edition",
+      "description": "Sudoku Daily Puzzles - A Monthly Series for Puzzle Lovers. Sudoku Daily Puzzles is a monthly series of logic puzzle books designed for Sudoku fans who love a daily mental challenge.",
+      "imageUrl": "https://sudoku.one9x.org/shop/images/202510_cover_thumbnail_100.jpg",
+      "purchaseUrl": "https://store.pothi.com/book/amisha-yadav-sudoku-daily-puzzles-october-2025/",
+      "price": 0.00,
+      "currency": "INR"
+    },
+    {
       "id": "202509",
       "title": "Daily Puzzles - September 2025",
       "description": "Sudoku Daily Puzzles - A Monthly Series for Puzzle Lovers. Sudoku Daily Puzzles is a monthly series of logic puzzle books designed for Sudoku fans who love a daily mental challenge.",
