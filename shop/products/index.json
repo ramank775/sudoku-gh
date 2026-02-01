@@ -1,6 +1,24 @@
 {
   "comingSoon": false,
   "items": [
+    {
+      "id": "202602",
+      "title": "Daily Puzzles - February 2026",
+      "description": "Sudoku Daily Puzzles - A Monthly Series for Puzzle Lovers. Sudoku Daily Puzzles is a monthly series of logic puzzle books designed for Sudoku fans who love a daily mental challenge.",
+      "imageUrl": "https://sudoku.one9x.org/shop/images/202602_cover_thumbnail_100.jpg",
+      "purchaseUrl": "https://mybook.to/one9x-sudoku-feb26",
+      "price": 0.00,
+      "currency": "USD"
+    },
+    {
+      "id": "202602",
+      "title": "Daily Puzzles - February 2026 - India Edition",
+      "description": "Sudoku Daily Puzzles - A Monthly Series for Puzzle Lovers. Sudoku Daily Puzzles is a monthly series of logic puzzle books designed for Sudoku fans who love a daily mental challenge.",
+      "imageUrl": "https://sudoku.one9x.org/shop/images/202602_cover_thumbnail_100.jpg",
+      "purchaseUrl": "https://store.pothi.com/book/amisha-yadav-sudoku-daily-puzzles-february-2026/",
+      "price": 0.00,
+      "currency": "INR"
+    },
       {
       "id": "202601",
       "title": "Daily Puzzles - January 2026",
