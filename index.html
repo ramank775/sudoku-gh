@@ -7,32 +7,120 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- mobile metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <!-- site metas -->
-    <title>Sudoku</title>
+    <title>Sudoku | One9x</title>
     <link rel="icon" href="icon/title-icon.png">
-    <meta name="keywords" content="sudoku">
+    <meta name="keywords" content="sudoku, online sudoku, logic puzzle, brain game, android sudoku, offline sudoku">
     <meta name="description"
-        content="Experience Sudoku like never before! Sharpen your skills, track your progress, and master various game modes. Challenge yourself daily, beat your records, and become a Sudoku champion. Start playing now!">
+        content="Master logic with Sudoku by One9x. Ad-free, offline-ready core gameplay with Classic, Rush Hour, Timed, and Daily Challenge modes.">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="https://sudoku.one9x.org/">
 
     <meta name="author" content="">
     <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="https://sudoku.one9x.org">
+    <meta property="og:url" content="https://sudoku.one9x.org/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Sudoku">
-    <meta property="og:description" content="">
-
+    <meta property="og:site_name" content="Sudoku One9x">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="Sudoku | One9x">
+    <meta property="og:description"
+        content="Ad-free Sudoku with offline-ready core gameplay, multiple modes, and daily challenges from One9x.">
     <meta property="og:image" content="https://sudoku.one9x.org/images/og.jpg">
+    <meta property="og:image:alt" content="Sudoku One9x game preview">
 
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="sudoku.one9x.org">
-    <meta property="twitter:url" content="https://sudoku.one9x.org">
-    <meta name="twitter:title" content="Sudoku">
-    <meta name="twitter:description" content="">
-
+    <meta property="twitter:url" content="https://sudoku.one9x.org/">
+    <meta name="twitter:title" content="Sudoku | One9x">
+    <meta name="twitter:description"
+        content="Ad-free Sudoku with offline-ready core gameplay, multiple modes, and daily challenges from One9x.">
     <meta name="twitter:image" content="https://sudoku.one9x.org/images/og.jpg">
+    <meta name="twitter:image:alt" content="Sudoku One9x game preview">
+    <meta name="theme-color" content="#ffffff">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "WebSite",
+                    "name": "Sudoku One9x",
+                    "url": "https://sudoku.one9x.org/",
+                    "inLanguage": "en-US"
+                },
+                {
+                    "@type": "SoftwareApplication",
+                    "name": "Sudoku",
+                    "applicationCategory": "GameApplication",
+                    "operatingSystem": "Web, Android",
+                    "offers": {
+                        "@type": "Offer",
+                        "price": "0",
+                        "priceCurrency": "USD",
+                        "description": "Core gameplay is free. Optional paid items may be available."
+                    },
+                    "url": "https://sudoku.one9x.org/game",
+                    "description": "Ad-free Sudoku for web and Android with Classic, Rush Hour, Timed, and Daily Challenge modes, plus offline-ready core gameplay.",
+                    "featureList": [
+                        "Classic mode with Easy, Medium, Hard, and Expert difficulty levels",
+                        "Rush Hour mode",
+                        "Timed mode",
+                        "Daily Challenges with archive access",
+                        "Detailed statistics: streaks, win rate, best times, average times",
+                        "Puzzle Creator",
+                        "Puzzle Import",
+                        "100% ad-free core experience",
+                        "Offline-ready core gameplay",
+                        "Auto-save progress",
+                        "Customizable interface"
+                    ],
+                    "publisher": {
+                        "@type": "Organization",
+                        "name": "One9x",
+                        "url": "https://sudoku.one9x.org/"
+                    }
+                },
+                {
+                    "@type": "FAQPage",
+                    "mainEntity": [
+                        {
+                            "@type": "Question",
+                            "name": "How do you play Sudoku?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Fill the 9x9 grid so each row, column, and 3x3 box includes numbers 1 through 9 exactly once."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "Is Sudoku One9x free to play?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Core gameplay is free on web and Android. Optional paid items may be added for extra content."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "Where can I play Sudoku One9x?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "You can play in your browser at /game or download the Android app from Google Play."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "Does Sudoku One9x support offline play?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Yes. Core gameplay works offline because puzzles are generated on the device. Some features, such as online puzzle content, may require internet."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    </script>
 
 
     <!-- style css -->
@@ -41,8 +129,6 @@
     <link rel="stylesheet" href="css/responsive.css">
     <!-- fevicon -->
     <link rel="icon" href="images/fevicon.png" type="image/gif" />
-    <!-- Scrollbar Custom CSS -->
-    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
     <!-- Tweaks for older IEs-->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
@@ -50,6 +136,461 @@
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+    <style>
+        :root {
+            --brand: #2196f3;
+            --brand-dark: #116db7;
+            --panel: #ffffff;
+            --panel-soft: #eaf5ff;
+            --text-main: #0d1b2a;
+            --text-muted: #3f5368;
+        }
+
+        body.main-layout {
+            width: min(1800px, 99vw) !important;
+            margin: 4px auto 14px !important;
+            border-radius: 24px;
+            background: linear-gradient(165deg, rgba(205, 233, 255, 0.65), rgba(255, 255, 255, 0.97));
+            box-shadow: 0 16px 45px rgba(17, 109, 183, 0.12);
+        }
+
+        .header-top {
+            position: sticky;
+            top: 0;
+            z-index: 20;
+            padding: 0 28px;
+            background: rgba(255, 255, 255, 0.78);
+            border-bottom: 1px solid rgba(33, 150, 243, 0.12);
+            backdrop-filter: blur(14px);
+        }
+
+        .header {
+            padding: 20px 0 !important;
+        }
+
+        .logo > a > img {
+            width: 170px !important;
+        }
+
+        .top-right {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .top-nav {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .top-nav a {
+            color: #18324a;
+            font-size: 13px;
+            font-weight: 600;
+            padding: 6px 10px;
+            border-radius: 999px;
+            background: rgba(33, 150, 243, 0.08);
+            border: 1px solid rgba(33, 150, 243, 0.15);
+            text-decoration: none;
+        }
+
+        .top-nav a:hover {
+            background: rgba(33, 150, 243, 0.16);
+        }
+
+        .social-icons {
+            margin: 0;
+            padding: 0;
+            gap: 4px;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        .social-icons > li {
+            padding: 0 8px !important;
+        }
+
+        .social-icons .follow-label {
+            display: none;
+        }
+
+        .social-icons > li > a > img {
+            width: 28px !important;
+        }
+
+        .body-container {
+            width: 100% !important;
+            margin: 0 !important;
+            padding: 16px 30px 0;
+        }
+
+        .slider_section {
+            margin-top: 10px;
+            padding-top: 22px !important;
+        }
+
+        .banner_main {
+            width: 100%;
+            max-width: 1680px;
+            margin: 0 auto;
+            background: radial-gradient(circle at 20% 15%, rgba(33, 150, 243, 0.2), transparent 40%),
+                radial-gradient(circle at 100% 0%, rgba(17, 109, 183, 0.22), transparent 36%),
+                linear-gradient(130deg, #ffffff 0%, #eaf5ff 60%, #d7ebff 100%);
+            border-radius: 26px;
+            border: 1px solid rgba(17, 109, 183, 0.14);
+            padding: 26px 28px 20px;
+        }
+
+        .body-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between !important;
+            gap: 28px;
+        }
+
+        .container {
+            width: 50% !important;
+        }
+
+        .body-content .container:first-child {
+            width: 47% !important;
+        }
+
+        .body-content .container:last-child {
+            width: 53% !important;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+
+        .text-bg h1 {
+            color: var(--text-main) !important;
+            font-family: 'Rajdhani', sans-serif;
+            font-size: clamp(34px, 3.5vw, 52px) !important;
+            line-height: 1.06 !important;
+            letter-spacing: 0.6px;
+            margin-bottom: 16px !important;
+            padding-bottom: 0 !important;
+        }
+
+        .hero-subtext {
+            margin: 0 0 22px;
+            max-width: 590px;
+            color: var(--text-muted);
+            font-size: 17px;
+            line-height: 1.6;
+        }
+
+        .cta-wrap {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        .text-bg a {
+            margin-right: 0 !important;
+            font-size: 14px !important;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            min-width: 132px;
+            text-align: center;
+            padding: 12px 24px !important;
+            border-radius: 999px !important;
+            border: 1px solid transparent;
+            box-shadow: 0 8px 16px rgba(33, 150, 243, 0.16);
+            transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease, color 0.2s ease;
+        }
+
+        .text-bg a:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 12px 22px rgba(33, 150, 243, 0.22);
+        }
+
+        .text-bg .play-btn {
+            background: linear-gradient(120deg, #2f8fff, #1f73e6) !important;
+            color: #ffffff !important;
+            border-color: #2a80ef;
+        }
+
+        .text-bg .play-btn:hover {
+            background: linear-gradient(120deg, #1f73e6, #1665d8) !important;
+        }
+
+        .text-bg .download-btn {
+            background: rgba(255, 255, 255, 0.92) !important;
+            color: #0f1b3d !important;
+            border-color: rgba(15, 27, 61, 0.2);
+        }
+
+        .text-bg .download-btn:hover {
+            background: #ffffff !important;
+            border-color: rgba(15, 27, 61, 0.34);
+        }
+
+        .text-bg .shop-btn {
+            background: linear-gradient(120deg, #0f1b3d, #1a2f66) !important;
+            color: #f5f9ff !important;
+            border-color: #1a2f66;
+        }
+
+        .text-bg .shop-btn:hover {
+            background: linear-gradient(120deg, #172a57, #1f3d83) !important;
+        }
+
+        .hero-kpis {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 12px;
+            max-width: 620px;
+        }
+
+        .hero-kpis div {
+            background: rgba(255, 255, 255, 0.85);
+            border: 1px solid rgba(33, 150, 243, 0.17);
+            border-radius: 12px;
+            padding: 10px 12px;
+        }
+
+        .hero-kpis strong {
+            display: block;
+            font-size: 16px;
+            line-height: 1.1;
+            color: #0f1b3d;
+            margin-bottom: 4px;
+        }
+
+        .hero-kpis span {
+            font-size: 12px;
+            color: var(--text-muted);
+        }
+
+        .hero-image {
+            width: min(100%, 680px) !important;
+            filter: drop-shadow(0 22px 18px rgba(23, 68, 116, 0.18));
+        }
+
+        .sudoku-details {
+            margin-top: 18px !important;
+            padding-bottom: 34px !important;
+        }
+
+        .sudoku-experience,
+        .tips-section {
+            background: rgba(255, 255, 255, 0.9);
+            border: 1px solid rgba(33, 150, 243, 0.14);
+            border-radius: 18px;
+            padding: 22px 22px 10px;
+            margin-top: 20px !important;
+            box-shadow: 0 8px 20px rgba(16, 74, 128, 0.08);
+        }
+
+        .details-heading h1,
+        .tips-heading h1 {
+            margin-top: 2px;
+            margin-bottom: 12px;
+            font-family: 'Rajdhani', sans-serif;
+            font-size: clamp(26px, 2.8vw, 38px);
+            line-height: 1.1;
+            color: var(--text-main);
+        }
+
+        .details-subcontent {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 14px;
+        }
+
+        .subcontent-1,
+        .subcontent-2,
+        .subcontent-3 {
+            background: linear-gradient(160deg, #ffffff 0%, #f2f9ff 100%);
+            border: 1px solid rgba(33, 150, 243, 0.18);
+            border-radius: 14px;
+            padding: 12px 12px 8px;
+        }
+
+        .subcontent-heading {
+            padding: 0 !important;
+            margin: 0 0 8px;
+            font-size: 20px !important;
+            font-family: 'Rajdhani', sans-serif;
+        }
+
+        .details-subcontent p,
+        .tips-description p,
+        .tips-content li {
+            color: var(--text-muted);
+            font-size: 15px;
+            line-height: 1.65;
+        }
+
+        .tips {
+            background: linear-gradient(160deg, #f6fbff, #e6f2ff) !important;
+            border: 1px solid rgba(33, 150, 243, 0.18);
+            border-radius: 14px !important;
+            padding: 14px 20px 16px !important;
+            margin-top: 10px !important;
+        }
+
+        .tips-content {
+            margin: 0;
+            padding-left: 22px;
+        }
+
+        .about-card {
+            background: rgba(255, 255, 255, 0.9);
+            border: 1px solid rgba(33, 150, 243, 0.14);
+            border-radius: 18px;
+            padding: 22px;
+            margin-top: 20px;
+            box-shadow: 0 8px 20px rgba(16, 74, 128, 0.08);
+        }
+
+        .about-card h2 {
+            margin: 0 0 10px;
+            font-family: 'Rajdhani', sans-serif;
+            font-size: clamp(26px, 2.8vw, 38px);
+            line-height: 1.1;
+            color: var(--text-main);
+        }
+
+        .about-card h3 {
+            margin: 12px 0 8px;
+            font-family: 'Rajdhani', sans-serif;
+            font-size: 24px;
+            color: var(--text-main);
+        }
+
+        .about-card p,
+        .about-card li {
+            color: var(--text-muted);
+            font-size: 15px;
+            line-height: 1.65;
+        }
+
+        .about-card ul {
+            margin: 0;
+            padding-left: 22px;
+        }
+
+        .site-footer {
+            margin: 10px 30px 16px;
+            padding: 18px 18px;
+            background: linear-gradient(120deg, #cde9ff, #dff1ff);
+            color: #0f1b3d;
+            text-align: center;
+            border-radius: 14px;
+            border: 1px solid rgba(33, 150, 243, 0.2);
+        }
+
+        .site-footer p {
+            margin: 0 0 6px;
+            font-weight: 700;
+            letter-spacing: 0.3px;
+        }
+
+        .site-footer .footer-links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .site-footer .footer-links a {
+            color: #0f1b3d;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 4px 8px;
+            border-radius: 8px;
+        }
+
+        .site-footer .footer-links a:hover {
+            background: rgba(255, 255, 255, 0.65);
+        }
+
+        @media (max-width: 900px) {
+            body.main-layout {
+                width: 96vw !important;
+                margin: 12px auto 20px !important;
+                border-radius: 16px;
+            }
+
+            .header-top {
+                padding: 0 16px;
+            }
+
+            .logo {
+                align-items: center;
+            }
+
+            .social-icons {
+                font-size: 12px;
+            }
+
+            .top-nav {
+                display: none;
+            }
+
+            .body-container {
+                padding: 16px 16px 0;
+            }
+
+            .banner_main {
+                padding: 18px 14px 14px;
+            }
+
+            .body-content {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .container {
+                width: 100% !important;
+            }
+
+            .body-content .container:first-child,
+            .body-content .container:last-child {
+                width: 100% !important;
+            }
+
+            .body-content .container:last-child {
+                justify-content: center;
+                align-items: center;
+            }
+
+            .text-bg {
+                text-align: left !important;
+            }
+
+            .text-bg h1 {
+                font-size: 34px !important;
+            }
+
+            .hero-subtext {
+                font-size: 15px;
+            }
+
+            .hero-kpis {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-image {
+                width: min(100%, 320px) !important;
+                margin: 6px auto 0;
+            }
+
+            .details-subcontent {
+                grid-template-columns: 1fr;
+            }
+
+            .site-footer {
+                margin: 16px 16px 20px;
+            }
+        }
+    </style>
 </head>
 <!-- body -->
 
@@ -63,12 +604,19 @@
                     <div class="full">
                         <div class="center-desk">
                             <div class="logo">
-                                <a href="index.html"><img src="images/logo.svg" alt="#" /></a>
-                                <ul class="social-icons">
-                                    <li>Follow us: </li>
-                                    <li><a href="https://www.instagram.com/sudoku.one9x" target="_blank"><img
-                                                src="icon/Instagram_icon.png.webp" alt=""></a></li>
-                                </ul>
+                                <a href="index.html"><img src="images/logo.svg" alt="Sudoku One9x logo" /></a>
+                                <div class="top-right">
+                                    <nav class="top-nav">
+                                        <a href="/game">Play</a>
+                                        <a href="/shop">Shop</a>
+                                        <a href="/blog/">Blog</a>
+                                    </nav>
+                                    <ul class="social-icons">
+                                        <li class="follow-label">Follow us: </li>
+                                        <li><a href="https://www.instagram.com/sudoku.one9x" target="_blank"><img
+                                                    src="icon/Instagram_icon.png.webp" alt="Instagram"></a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -85,15 +633,34 @@
                         <div class="container">
                             <div class="text-bg">
                                 <h1>Your Ultimate Destination for<br> <img class="hero-text" src="images/logo.svg"
-                                        alt="">
+                                        alt="Sudoku One9x">
                                 </h1>
-                                <a href="/game" class="play-btn">Play Now</a>
-                                <a href="https://play.google.com/store/apps/details?id=com.one9x.sudoku" target="_blank"
-                                    class="download-btn">Download</a>
+                                <p class="hero-subtext">Master the art of logic with Sudoku by One9x. Enjoy ad-free core gameplay, offline-ready puzzle solving, and multiple modes including Classic, Rush Hour, Timed, and Daily Challenges.
+                                    Shop the Daily Quiz Book with 4 puzzles for each day.</p>
+                                <div class="cta-wrap">
+                                    <a href="/game" class="play-btn">Play Now</a>
+                                    <a href="https://play.google.com/store/apps/details?id=com.one9x.sudoku" target="_blank"
+                                        class="download-btn">Download</a>
+                                    <a href="/shop" class="shop-btn">Shop</a>
+                                </div>
+                                <div class="hero-kpis">
+                                    <div>
+                                        <strong>Web + Android</strong>
+                                        <span>Play on your favorite device</span>
+                                    </div>
+                                    <div>
+                                        <strong>Offline Ready</strong>
+                                        <span>Core puzzles run without internet</span>
+                                    </div>
+                                    <div>
+                                        <strong>Daily Challenge</strong>
+                                        <span>Fresh logic practice every day</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="container">
-                            <img class="hero-image" src="images/Character.png" alt="">
+                            <img class="hero-image" src="images/Character.png" alt="Sudoku character illustration">
                         </div>
                     </div>
                 </div>
@@ -114,12 +681,10 @@
                             entertained.</p>
                     </div>
                     <div class="subcontent-2">
-                        <h3 class="subcontent-heading">🌐 Anytime, Anywhere</h3>
-                        <p>Take your Sudoku journey with you wherever you go. Our app is designed for seamless
-                            compatibility
-                            across devices, ensuring you can enjoy a satisfying Sudoku experience whether you’re on your
-                            phone
-                            during a commute or relaxing at home on your tablet.</p>
+                        <h3 class="subcontent-heading">🌐 Web + Android + Offline</h3>
+                        <p>Play on the web or Android and continue solving even when you are offline. Core gameplay is
+                            available without internet, while some online features and puzzle content may require a
+                            connection.</p>
                     </div>
                     <div class="subcontent-3">
                         <h3 class="subcontent-heading">🚀 Constant Innovation</h3>
@@ -169,14 +734,34 @@
                 </div>
                 <br>
                 <div class="tips-description">
-                    <p>Now that you know a little more about Sudoku, play and enjoy this free game.</p>
+                    <p>Now that you know a little more about Sudoku, jump in and enjoy the core gameplay for free.</p>
                 </div>
+            </div>
+            <div class="about-card">
+                <h2>About This Game</h2>
+                <p>Master the art of logic with Sudoku, designed for both casual players and competitive solvers. Relax with classic puzzles or race against the clock with focused challenge modes. The core experience is ad-free and offline-ready.</p>
+                <h3>Key Features</h3>
+                <ul>
+                    <li><strong>Multiple Game Modes:</strong> Classic (Easy, Medium, Hard, Expert), Rush Hour, Timed Mode, and Daily Challenges with archive access.</li>
+                    <li><strong>Track Your Progress:</strong> Follow streaks, win rates, best times, and average times across modes.</li>
+                    <li><strong>Create & Import:</strong> Build your own puzzles with Puzzle Creator or import puzzles from external sources.</li>
+                    <li><strong>Premium Experience:</strong> 100% ad-free interface, offline-ready core play, customizable UI, and auto-save progress.</li>
+                </ul>
+                <p>Sharpen your mind and build a daily Sudoku habit with consistent, logic-first gameplay.</p>
             </div>
         </div>
     </div>
 
-
-
+    <footer class="site-footer">
+        <p>Sudoku One9x</p>
+        <div class="footer-links">
+            <a href="/game">Play</a>
+            <a href="/shop">Shop</a>
+            <a href="/blog/">Blog</a>
+            <a href="/privacy-policy.html">Privacy Policy</a>
+            <a href="https://play.google.com/store/apps/details?id=com.one9x.sudoku" target="_blank">Android App</a>
+        </div>
+    </footer>
 </body>
 
 </html>

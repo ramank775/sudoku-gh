@@ -1,0 +1,44 @@
+# Sudoku One9x
+
+Sudoku One9x is a Sudoku puzzle platform from One9x.
+Primary experience: browser game at `/game`.
+
+## Canonical Site
+- https://sudoku.one9x.org/
+
+## Key Pages
+- Home: https://sudoku.one9x.org/
+- Play Sudoku (web): https://sudoku.one9x.org/game
+- Blog: https://sudoku.one9x.org/blog/
+- Privacy Policy: https://sudoku.one9x.org/privacy-policy.html
+
+## Blog Articles
+- https://sudoku.one9x.org/blog/how-to-solve-sudoku-fast.html
+- https://sudoku.one9x.org/blog/sudoku-strategies-beginners-to-advanced.html
+- https://sudoku.one9x.org/blog/daily-sudoku-practice-plan.html
+- https://sudoku.one9x.org/blog/sudoku-rules-for-beginners.html
+- https://sudoku.one9x.org/blog/how-to-use-candidates-in-sudoku.html
+- https://sudoku.one9x.org/blog/sudoku-mistakes-beginners-make.html
+- https://sudoku.one9x.org/blog/sudoku-solving-checklist.html
+- https://sudoku.one9x.org/blog/how-to-solve-medium-sudoku.html
+- https://sudoku.one9x.org/blog/how-to-solve-hard-sudoku.html
+- https://sudoku.one9x.org/blog/sudoku-patterns-you-should-know.html
+- https://sudoku.one9x.org/blog/offline-sudoku-vs-online-sudoku.html
+- https://sudoku.one9x.org/blog/best-time-to-practice-sudoku-daily.html
+
+## Product Summary
+- Core gameplay is free
+- Optional paid items may be available for extra content
+- Multiple puzzle modes
+- Daily challenge gameplay
+- Offline-ready core gameplay (generated on device)
+- Some content/features may require internet access
+- Available on web and Android (Google Play)
+
+## Organization
+- Name: One9x
+- Contact: contact@one9x.org
+
+## Crawling
+- robots.txt: https://sudoku.one9x.org/robots.txt
+- sitemap.xml: https://sudoku.one9x.org/sitemap.xml

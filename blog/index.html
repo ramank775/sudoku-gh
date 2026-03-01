@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sudoku Blog - Tips, Strategies, and Guides | One9x</title>
+  <meta name="description" content="Read Sudoku tips, solving strategies, and beginner-to-advanced guides from Sudoku One9x. Improve faster and play smarter.">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="https://sudoku.one9x.org/blog/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sudoku Blog - Tips, Strategies, and Guides | One9x">
+  <meta property="og:description" content="Sudoku tips, strategies, and practical guides to improve your puzzle-solving speed and accuracy.">
+  <meta property="og:url" content="https://sudoku.one9x.org/blog/">
+  <meta property="og:image" content="https://sudoku.one9x.org/images/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sudoku Blog - Tips, Strategies, and Guides | One9x">
+  <meta name="twitter:description" content="Learn Sudoku faster with practical guides and strategy breakdowns from Sudoku One9x.">
+  <meta name="twitter:image" content="https://sudoku.one9x.org/images/og.jpg">
+  <link rel="alternate" type="application/rss+xml" title="Sudoku One9x Blog RSS" href="feed.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --text: #0d1b2a;
+      --muted: #3f5368;
+      --border: rgba(17, 109, 183, 0.16);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Poppins", "Segoe UI", Arial, sans-serif;
+      color: var(--text);
+      background: linear-gradient(165deg, rgba(205, 233, 255, 0.65), rgba(255, 255, 255, 0.97));
+    }
+    .page {
+      width: min(1800px, 99vw);
+      margin: 4px auto 14px;
+      padding: 14px 22px 18px;
+      background: #eaf5ff;
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      box-shadow: 0 16px 45px rgba(17, 109, 183, 0.12);
+    }
+    .header-top {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      padding: 14px 18px;
+      background: rgba(255, 255, 255, 0.86);
+      border-bottom: 1px solid rgba(33, 150, 243, 0.14);
+      margin: -14px -22px 16px;
+      backdrop-filter: blur(12px);
+    }
+    .logo { display: flex; align-items: center; width: 100%; justify-content: space-between; }
+    .logo img { width: 170px; display: block; }
+    .top-right { display: flex; align-items: center; gap: 14px; }
+    .top-nav { display: flex; gap: 10px; }
+    .top-nav a {
+      color: #18324a;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(33, 150, 243, 0.08);
+      border: 1px solid rgba(33, 150, 243, 0.15);
+    }
+    .top-nav a:hover { background: rgba(33, 150, 243, 0.16); }
+    .social-icons { margin: 0; padding: 0; list-style: none; }
+    .social-icons img { width: 28px; display: block; }
+
+    .hero {
+      background: radial-gradient(circle at 15% 10%, rgba(33, 150, 243, 0.2), transparent 42%),
+                  linear-gradient(130deg, #ffffff 0%, #eaf5ff 60%, #d7ebff 100%);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 18px;
+      margin-bottom: 16px;
+    }
+    .hero h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.05;
+      font-family: "Rajdhani", "Segoe UI", Arial, sans-serif;
+    }
+    .hero p { margin: 0; color: var(--muted); max-width: 840px; }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 1.15fr 1fr;
+      gap: 16px;
+      margin-bottom: 16px;
+      align-items: start;
+    }
+    .panel {
+      background: linear-gradient(160deg, #ffffff 0%, #f2f9ff 100%);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 14px;
+      box-shadow: 0 8px 20px rgba(16, 74, 128, 0.08);
+    }
+    .panel h2,
+    .panel h3 { margin: 0 0 8px; font-family: "Rajdhani", "Segoe UI", Arial, sans-serif; }
+    .panel p { margin: 0; color: var(--muted); }
+
+    .featured-link { display: block; text-decoration: none; color: inherit; }
+    .featured-link h2 { font-size: 1.7rem; line-height: 1.15; margin-bottom: 8px; }
+    .feature-points { margin: 10px 0 0; padding-left: 18px; color: var(--muted); }
+    .feature-points li { margin-bottom: 6px; }
+    .feature-cta {
+      margin-top: 12px;
+      display: inline-block;
+      text-decoration: none;
+      color: #0f1b3d;
+      font-weight: 700;
+      font-size: 0.92rem;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(33, 150, 243, 0.1);
+      border: 1px solid rgba(33, 150, 243, 0.2);
+    }
+    .meta { color: var(--muted); font-size: 0.92rem; margin-bottom: 10px; display: block; }
+
+    .quick-list { display: grid; gap: 10px; margin-top: 10px; }
+    .quick-link {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      padding: 10px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: #fff;
+    }
+    .quick-link strong { display: block; margin-bottom: 3px; }
+    .quick-link span { color: var(--muted); font-size: 0.92rem; }
+
+    .cards {
+      display: grid;
+      gap: 16px;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      margin-bottom: 16px;
+    }
+    .card-link { display: block; text-decoration: none; color: inherit; }
+    .card {
+      background: linear-gradient(160deg, #ffffff 0%, #f2f9ff 100%);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 14px;
+      box-shadow: 0 8px 20px rgba(16, 74, 128, 0.08);
+      transition: transform 0.18s ease, box-shadow 0.18s ease;
+      height: 100%;
+    }
+    .card-link:hover .card { transform: translateY(-2px); box-shadow: 0 14px 22px rgba(16, 74, 128, 0.14); }
+    .card h3 { margin: 0 0 8px; }
+    .card p { margin: 0; color: var(--muted); line-height: 1.45; }
+
+    .site-footer {
+      margin-top: 8px;
+      padding: 18px;
+      background: linear-gradient(120deg, #cde9ff, #dff1ff);
+      color: #0f1b3d;
+      text-align: center;
+      border-radius: 14px;
+      border: 1px solid rgba(33, 150, 243, 0.2);
+    }
+    .site-footer p { margin: 0 0 6px; font-weight: 700; }
+    .footer-links { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 12px; }
+    .footer-links a {
+      color: #0f1b3d;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 4px 8px;
+      border-radius: 8px;
+    }
+    .footer-links a:hover { background: rgba(255, 255, 255, 0.65); }
+
+    @media (max-width: 980px) {
+      .page { width: calc(100vw - 16px); margin: 8px; padding: 12px; border-radius: 16px; }
+      .header-top { margin: -12px -12px 12px; padding: 10px 12px; }
+      .top-nav { display: none; }
+      .logo img { width: 140px; }
+      .layout { grid-template-columns: 1fr; }
+      .cards { grid-template-columns: 1fr; }
+    }
+
+    @media (min-width: 981px) and (max-width: 1500px) {
+      .cards { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    }
+
+    @media (min-width: 1501px) and (max-width: 1800px) {
+      .cards { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    }
+  </style>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Blog",
+      "name": "Sudoku One9x Blog",
+      "url": "https://sudoku.one9x.org/blog/",
+      "inLanguage": "en-US",
+      "publisher": {
+        "@type": "Organization",
+        "name": "One9x",
+        "url": "https://sudoku.one9x.org/"
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="page">
+    <div class="header-top">
+      <div class="logo">
+        <a href="../index.html"><img src="../images/logo.svg" alt="Sudoku One9x logo"></a>
+        <div class="top-right">
+          <nav class="top-nav">
+            <a href="../game/">Play</a>
+            <a href="../shop/">Shop</a>
+            <a href="index.html">Blog</a>
+          </nav>
+          <ul class="social-icons">
+            <li><a href="https://www.instagram.com/sudoku.one9x" target="_blank"><img src="../icon/Instagram_icon.png.webp" alt="Instagram"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <section class="hero">
+      <h1>Sudoku Blog</h1>
+      <p>Practical guides to solve faster, practice smarter, and improve consistency with Sudoku One9x.</p>
+    </section>
+
+    <section class="layout">
+      <a class="featured-link panel" href="how-to-solve-sudoku-fast.html">
+        <h2>How to Solve Sudoku Faster Without Guessing</h2>
+        <p>Use a repeatable logic workflow to solve puzzles faster and reduce mistakes in medium and hard grids.</p>
+        <ul class="feature-points">
+          <li>Fixed scan order that prevents missed placements</li>
+          <li>Candidate discipline for cleaner solving</li>
+          <li>7-day speed improvement plan</li>
+        </ul>
+        <span class="feature-cta">Read Full Guide</span>
+      </a>
+      <div class="panel">
+        <h3>Start Here</h3>
+        <p>Pick based on your goal.</p>
+        <div class="quick-list">
+          <a class="quick-link" href="daily-sudoku-practice-plan.html"><strong>Build daily consistency</strong><span>15-minute routine with weekly tracking.</span></a>
+          <a class="quick-link" href="sudoku-rules-for-beginners.html"><strong>Start from fundamentals</strong><span>Simple rule guide for true beginners.</span></a>
+          <a class="quick-link" href="../shop/"><strong>Daily Quiz Book</strong><span>4 puzzles per day for structured practice.</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="cards">
+      <a class="card-link" href="sudoku-strategies-beginners-to-advanced.html">
+        <article class="card">
+          <h3>Sudoku Strategies: Beginner to Advanced</h3>
+          <p>A practical progression of techniques, from singles to candidate elimination patterns you can apply immediately.</p>
+        </article>
+      </a>
+      <a class="card-link" href="daily-sudoku-practice-plan.html">
+        <article class="card">
+          <h3>Daily Sudoku Practice Plan (15 Minutes)</h3>
+          <p>A short daily routine designed to improve pattern recognition and consistency without spending hours each day.</p>
+        </article>
+      </a>
+      <a class="card-link" href="how-to-solve-sudoku-fast.html">
+        <article class="card">
+          <h3>Speed Solving Checklist</h3>
+          <p>Use scanning order, singles, and periodic error checks to reduce solve time and avoid unnecessary restarts.</p>
+        </article>
+      </a>
+      <a class="card-link" href="sudoku-rules-for-beginners.html">
+        <article class="card">
+          <h3>Sudoku Rules for Beginners</h3>
+          <p>A simple no-fluff guide to Sudoku rules, first moves, and beginner logic patterns.</p>
+        </article>
+      </a>
+      <a class="card-link" href="how-to-use-candidates-in-sudoku.html">
+        <article class="card">
+          <h3>How to Use Candidates in Sudoku</h3>
+          <p>Learn when to use pencil marks and how to keep candidate notes clean and useful.</p>
+        </article>
+      </a>
+      <a class="card-link" href="sudoku-mistakes-beginners-make.html">
+        <article class="card">
+          <h3>Top Sudoku Mistakes Beginners Make</h3>
+          <p>Avoid common mistakes that hurt solve accuracy and speed.</p>
+        </article>
+      </a>
+      <a class="card-link" href="sudoku-solving-checklist.html">
+        <article class="card">
+          <h3>Sudoku Solving Checklist</h3>
+          <p>A repeatable checklist to use before and during every puzzle.</p>
+        </article>
+      </a>
+      <a class="card-link" href="how-to-solve-medium-sudoku.html">
+        <article class="card">
+          <h3>How to Solve Medium Sudoku</h3>
+          <p>Transition from easy to medium puzzles with a practical elimination flow.</p>
+        </article>
+      </a>
+      <a class="card-link" href="how-to-solve-hard-sudoku.html">
+        <article class="card">
+          <h3>How to Solve Hard Sudoku</h3>
+          <p>Hard-level strategy to solve accurately without relying on guesses.</p>
+        </article>
+      </a>
+      <a class="card-link" href="sudoku-patterns-you-should-know.html">
+        <article class="card">
+          <h3>Sudoku Patterns You Should Know</h3>
+          <p>Essential solving patterns from singles to locked candidates and pairs.</p>
+        </article>
+      </a>
+      <a class="card-link" href="offline-sudoku-vs-online-sudoku.html">
+        <article class="card">
+          <h3>Offline Sudoku vs Online Sudoku</h3>
+          <p>Compare offline and online practice so you can build a better training mix.</p>
+        </article>
+      </a>
+      <a class="card-link" href="best-time-to-practice-sudoku-daily.html">
+        <article class="card">
+          <h3>Best Time to Practice Sudoku Daily</h3>
+          <p>Find the practice timing that best supports focus and long-term consistency.</p>
+        </article>
+      </a>
+    </section>
+
+    <footer class="site-footer">
+      <p>Sudoku One9x</p>
+      <div class="footer-links">
+        <a href="../game/">Play</a>
+        <a href="../shop/">Shop</a>
+        <a href="index.html">Blog</a>
+        <a href="../privacy-policy.html">Privacy Policy</a>
+        <a href="https://play.google.com/store/apps/details?id=com.one9x.sudoku" target="_blank">Android App</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

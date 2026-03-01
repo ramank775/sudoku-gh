@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Sudoku One9x Blog</title>
+    <link>https://sudoku.one9x.org/blog/</link>
+    <description>Sudoku tips, strategies, and practice guides from Sudoku One9x.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Mar 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>How to Solve Sudoku Faster Without Guessing</title>
+      <link>https://sudoku.one9x.org/blog/how-to-solve-sudoku-fast.html</link>
+      <guid>https://sudoku.one9x.org/blog/how-to-solve-sudoku-fast.html</guid>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+      <description>Use a repeatable logic workflow to solve Sudoku puzzles faster without guessing.</description>
+    </item>
+
+    <item>
+      <title>Sudoku Strategies: Beginner to Advanced</title>
+      <link>https://sudoku.one9x.org/blog/sudoku-strategies-beginners-to-advanced.html</link>
+      <guid>https://sudoku.one9x.org/blog/sudoku-strategies-beginners-to-advanced.html</guid>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+      <description>Step-by-step Sudoku strategy progression from beginner basics to advanced elimination.</description>
+    </item>
+
+    <item>
+      <title>Daily Sudoku Practice Plan (15 Minutes)</title>
+      <link>https://sudoku.one9x.org/blog/daily-sudoku-practice-plan.html</link>
+      <guid>https://sudoku.one9x.org/blog/daily-sudoku-practice-plan.html</guid>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+      <description>A short daily routine to improve Sudoku speed, consistency, and accuracy.</description>
+    </item>
+
+    <item>
+      <title>Sudoku Rules for Beginners (Simple Guide)</title>
+      <link>https://sudoku.one9x.org/blog/sudoku-rules-for-beginners.html</link>
+      <guid>https://sudoku.one9x.org/blog/sudoku-rules-for-beginners.html</guid>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+      <description>Simple beginner guide to Sudoku rules and first solving steps.</description>
+    </item>
+
+    <item>
+      <title>How to Use Candidates in Sudoku</title>
+      <link>https://sudoku.one9x.org/blog/how-to-use-candidates-in-sudoku.html</link>
+      <guid>https://sudoku.one9x.org/blog/how-to-use-candidates-in-sudoku.html</guid>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+      <description>Use pencil marks effectively and avoid candidate clutter.</description>
+    </item>
+
+    <item>
+      <title>Top Sudoku Mistakes Beginners Make</title>
+      <link>https://sudoku.one9x.org/blog/sudoku-mistakes-beginners-make.html</link>
+      <guid>https://sudoku.one9x.org/blog/sudoku-mistakes-beginners-make.html</guid>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+      <description>Common mistakes to avoid for cleaner, more accurate solves.</description>
+    </item>
+
+    <item>
+      <title>Sudoku Solving Checklist (Use Every Puzzle)</title>
+      <link>https://sudoku.one9x.org/blog/sudoku-solving-checklist.html</link>
+      <guid>https://sudoku.one9x.org/blog/sudoku-solving-checklist.html</guid>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+      <description>Repeatable checklist that improves solving consistency.</description>
+    </item>
+
+    <item>
+      <title>How to Solve Medium Sudoku Puzzles</title>
+      <link>https://sudoku.one9x.org/blog/how-to-solve-medium-sudoku.html</link>
+      <guid>https://sudoku.one9x.org/blog/how-to-solve-medium-sudoku.html</guid>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+      <description>Practical medium-level strategy without guessing.</description>
+    </item>
+
+    <item>
+      <title>How to Solve Hard Sudoku Without Guessing</title>
+      <link>https://sudoku.one9x.org/blog/how-to-solve-hard-sudoku.html</link>
+      <guid>https://sudoku.one9x.org/blog/how-to-solve-hard-sudoku.html</guid>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+      <description>Hard Sudoku flow with pattern layering and error control.</description>
+    </item>
+
+    <item>
+      <title>Sudoku Patterns You Should Know</title>
+      <link>https://sudoku.one9x.org/blog/sudoku-patterns-you-should-know.html</link>
+      <guid>https://sudoku.one9x.org/blog/sudoku-patterns-you-should-know.html</guid>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+      <description>Essential Sudoku patterns for better elimination and speed.</description>
+    </item>
+
+    <item>
+      <title>Offline Sudoku vs Online Sudoku: Which Is Better?</title>
+      <link>https://sudoku.one9x.org/blog/offline-sudoku-vs-online-sudoku.html</link>
+      <guid>https://sudoku.one9x.org/blog/offline-sudoku-vs-online-sudoku.html</guid>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+      <description>Compare offline and online modes for stronger practice results.</description>
+    </item>
+
+    <item>
+      <title>Best Time to Practice Sudoku Daily</title>
+      <link>https://sudoku.one9x.org/blog/best-time-to-practice-sudoku-daily.html</link>
+      <guid>https://sudoku.one9x.org/blog/best-time-to-practice-sudoku-daily.html</guid>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+      <description>Choose a daily practice slot that improves consistency.</description>
+    </item>
+  </channel>
+</rss>
